@@ -110,7 +110,7 @@ impl Screen {
         }
     }
 
-    pub(crate) fn set_size(&mut self, rows: u16, cols: u16) {
+    pub fn set_size(&mut self, rows: u16, cols: u16) {
         self.grid.set_size(crate::grid::Size { rows, cols });
         self.alternate_grid
             .set_size(crate::grid::Size { rows, cols });
