@@ -83,7 +83,7 @@ pub struct Screen {
 }
 
 impl Screen {
-    pub(crate) fn new(
+    pub fn new(
         size: crate::grid::Size,
         scrollback_len: usize,
     ) -> Self {
