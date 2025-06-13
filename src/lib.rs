@@ -54,6 +54,8 @@ mod row;
 mod screen;
 mod term;
 
+pub use vte;
+
 pub use attrs::Color;
 pub use cell::Cell;
 pub use parser::Parser;
