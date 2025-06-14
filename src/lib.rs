@@ -48,7 +48,7 @@
 
 mod attrs;
 mod cell;
-mod grid;
+pub mod grid;
 mod parser;
 mod row;
 mod screen;
