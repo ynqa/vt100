@@ -46,7 +46,7 @@
 #![allow(clippy::too_many_lines)]
 #![allow(clippy::type_complexity)]
 
-mod attrs;
+pub mod attrs;
 mod cell;
 pub mod grid;
 mod parser;
